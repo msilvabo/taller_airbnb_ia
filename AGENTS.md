@@ -76,8 +76,9 @@ Cuando ejecutes los skills de `superpowers` (`brainstorming`, `writing-plans` o 
 ## Puerta de Aprobación Obligatoria (Flujo en 2 Fases Separadas)
 Cuando el usuario solicite diseñar o planificar una pantalla/funcionalidad:
 
-1. **Fase 1 — SOLO Especificación (Detenerse al guardar):**
-   - Ejecuta `brainstorming` (preguntas de aclaración) y `writing-plans`.
+1. **Fase 1 — Brainstorming y Especificación (Detenerse al guardar):**
+   - **OBLIGATORIO:** Inicia con `brainstorming` para aclarar ambigüedades, proponer mejoras y resolver dudas con el usuario ANTES de planificar.
+   - Tras el consenso, ejecuta `writing-plans` para formalizar la especificación.
    - Guarda **únicamente** el archivo `specs/specXX.md`.
    - **PROHIBIDO** escribir, editar o crear archivos de código (`app/`, `components/`, `types/`, `data/`, etc.) en esta fase, incluso si el usuario dice "apruebo el plan" dentro del flujo de `writing-plans`.
    - Al guardar `specs/specXX.md`, detente inmediatamente y responde:
