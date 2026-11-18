@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# OpenCode local state, cache & session logs (NO subir historial local)
+.opencode/cache/
+.opencode/sessions/
+.opencode/state/
+.opencode/*.log
+
+# Sistema operativo y editores (por si alguien abre en Windows/Mac/VSCode)
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Permitir plantilla de entorno de ejemplo (útil para el paso a Supabase)
+!.env.local.example
