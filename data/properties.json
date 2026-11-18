@@ -1,0 +1,162 @@
+[
+  {
+    "id": "villa-serenity",
+    "title": "Villa Serenity: Residencia Contemporánea",
+    "subtitle": "Casa entera residencial · Palo Alto Estate",
+    "description": "Experimenta el lujo moderno y el descanso total en esta residencia arquitectónicamente impresionante. Ventanales de piso a techo, cocina gourmet equipada y suite principal tipo spa con tina de inmersión.",
+    "pricePerNight": 1250,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "Palo Alto, California, EE. UU.",
+    "rating": 4.98,
+    "reviewsCount": 124,
+    "isFeatured": true,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 240,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "garages": 2
+    },
+    "host": {
+      "name": "Sarah Jenkins",
+      "isSuperhost": true,
+      "yearsExperience": 7
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Sistema Smart Home Integral",
+      "Piscina privada climatizada",
+      "Cargador para vehículos eléctricos (EV)",
+      "Gimnasio privado",
+      "Wifi de fibra óptica (650 Mbps)",
+      "Jacuzzi exterior para 6 personas"
+    ]
+  },
+  {
+    "id": "the-glass-pavilion",
+    "title": "The Glass Pavilion",
+    "subtitle": "Pabellón arquitectónico de cristal y acero",
+    "description": "Diseño minimalista rodeado de jardines privados con piscina infinita y vistas despejadas. Ideal para escapadas exclusivas con privacidad absoluta y conserjería 24/7.",
+    "pricePerNight": 450,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "Montecito, California, EE. UU.",
+    "rating": 4.98,
+    "reviewsCount": 89,
+    "isFeatured": true,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 295,
+      "guests": 6,
+      "bedrooms": 4,
+      "bathrooms": 3.5,
+      "garages": 2
+    },
+    "host": {
+      "name": "Elena Richardson",
+      "isSuperhost": true,
+      "yearsExperience": 5
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Piscina infinita climatizada",
+      "Cava de vinos climatizada",
+      "Llegada autónoma sin contacto",
+      "Cobertura AirCover Luxe",
+      "Terraza panorámica",
+      "Cocina gourmet"
+    ]
+  },
+  {
+    "id": "modern-design-loft",
+    "title": "Modern Design Loft",
+    "subtitle": "Loft industrial de autor en el corazón cultural",
+    "description": "Techos de doble altura, ventanales industriales y mobiliario de diseño escandinavo. Equipado para trabajo remoto de alto rendimiento a pasos de galerías y restaurantes.",
+    "pricePerNight": 320,
+    "currency": "USD",
+    "category": "Ciudad",
+    "location": "SoHo, New York, EE. UU.",
+    "rating": 4.92,
+    "reviewsCount": 64,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 170,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "garages": 1
+    },
+    "host": {
+      "name": "Michael Ross",
+      "isSuperhost": true,
+      "yearsExperience": 6
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Fibra óptica 1 Gbps",
+      "Estación de trabajo ergonómica",
+      "Climatización central",
+      "Cafetera espresso profesional",
+      "Ascensor privado",
+      "Seguridad 24 horas"
+    ]
+  },
+  {
+    "id": "nordic-forest-retreat",
+    "title": "Nordic Forest Retreat",
+    "subtitle": "Cabaña de madera y piedra entre pinos centenarios",
+    "description": "Refugio arquitectónico inmerso en el bosque con deck elevado, chimenea central y senderos privados. Diseñado para desconexión total en contacto con la naturaleza.",
+    "pricePerNight": 580,
+    "currency": "USD",
+    "category": "Cabaña",
+    "location": "Portland, Oregon, EE. UU.",
+    "rating": 5.0,
+    "reviewsCount": 51,
+    "isFeatured": true,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 310,
+      "guests": 10,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "garages": 2
+    },
+    "host": {
+      "name": "Mateo Ramírez",
+      "isSuperhost": false,
+      "yearsExperience": 3
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1542718610-a1d656d1884c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Chimenea a leña",
+      "Sauna finlandés privado",
+      "Deck panorámico en el bosque",
+      "Wifi Starlink",
+      "Cocina exterior con parrilla",
+      "Pet friendly"
+    ]
+  }
+]
