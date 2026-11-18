@@ -1,6 +1,6 @@
 ---
 description: Agente auditor puntual de archivos específicos (contratos, componentes y estilos). Prohibido escanear el proyecto completo.
-mode: subagent
+mode: all
 tools:
   write: false
   edit: false
