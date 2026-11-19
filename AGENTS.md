@@ -88,6 +88,8 @@ Cuando el usuario solicite diseñar o planificar una pantalla/funcionalidad:
    - Procede a programar y generar `specs/walkthroughXX.md` **únicamente** cuando el usuario envíe una nueva instrucción explícita indicando `"implementa specXX"` o `"ejecuta specs/specXX.md"`.
    - La implementación respeta `DESIGN.md` y el contrato de `Property`; al cerrar, corre lint y build y documenta la evidencia real.
 
+
 ## Git y Archivos Ajenos
 - No hacer commit, push ni PR sin instrucción explícita.
 - Hay archivos temporales ajenos al proyecto en la raíz (`y41156a1b0 ….mp4.part`, `.ytdl`): no agregarlos, moverlos ni commitearlos.
+- **Control de Git:** Prohibido ejecutar `git commit` o `git push` automáticamente. Deja los cambios sin commitear para revisión manual del usuario.
