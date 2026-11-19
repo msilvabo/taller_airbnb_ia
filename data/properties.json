@@ -3,7 +3,7 @@
     "id": "villa-serenity",
     "title": "Villa Serenity: Residencia Contemporánea",
     "subtitle": "Casa entera residencial · Palo Alto Estate",
-    "description": "Experimenta el lujo moderno y el descanso total en esta residencia arquitectónicamente impresionante. Ventanales de piso a techo, cocina gourmet equipada y suite principal tipo spa con tina de inmersión.",
+    "description": "Experimenta el lujo moderno y el descanso total en esta residencia arquitectónicamente impresionante.",
     "pricePerNight": 1250,
     "currency": "USD",
     "category": "Luxe",
@@ -25,25 +25,18 @@
       "yearsExperience": 7
     },
     "images": [
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80"
     ],
     "amenities": [
-      "Sistema Smart Home Integral",
       "Piscina privada climatizada",
-      "Cargador para vehículos eléctricos (EV)",
-      "Gimnasio privado",
-      "Wifi de fibra óptica (650 Mbps)",
-      "Jacuzzi exterior para 6 personas"
+      "Gimnasio privado"
     ]
   },
   {
     "id": "the-glass-pavilion",
     "title": "The Glass Pavilion",
     "subtitle": "Pabellón arquitectónico de cristal y acero",
-    "description": "Diseño minimalista rodeado de jardines privados con piscina infinita y vistas despejadas. Ideal para escapadas exclusivas con privacidad absoluta y conserjería 24/7.",
+    "description": "Diseño minimalista rodeado de jardines privados con piscina infinita.",
     "pricePerNight": 450,
     "currency": "USD",
     "category": "Luxe",
@@ -65,25 +58,18 @@
       "yearsExperience": 5
     },
     "images": [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
     ],
     "amenities": [
       "Piscina infinita climatizada",
-      "Cava de vinos climatizada",
-      "Llegada autónoma sin contacto",
-      "Cobertura AirCover Luxe",
-      "Terraza panorámica",
       "Cocina gourmet"
     ]
   },
   {
     "id": "modern-design-loft",
     "title": "Modern Design Loft",
-    "subtitle": "Loft industrial de autor en el corazón cultural",
-    "description": "Techos de doble altura, ventanales industriales y mobiliario de diseño escandinavo. Equipado para trabajo remoto de alto rendimiento a pasos de galerías y restaurantes.",
+    "subtitle": "Loft industrial de autor",
+    "description": "Techos de doble altura, ventanales industriales.",
     "pricePerNight": 320,
     "currency": "USD",
     "category": "Ciudad",
@@ -105,32 +91,25 @@
       "yearsExperience": 6
     },
     "images": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
     ],
     "amenities": [
       "Fibra óptica 1 Gbps",
-      "Estación de trabajo ergonómica",
-      "Climatización central",
-      "Cafetera espresso profesional",
-      "Ascensor privado",
-      "Seguridad 24 horas"
+      "Estación de trabajo"
     ]
   },
   {
     "id": "nordic-forest-retreat",
     "title": "Nordic Forest Retreat",
-    "subtitle": "Cabaña de madera y piedra entre pinos centenarios",
-    "description": "Refugio arquitectónico inmerso en el bosque con deck elevado, chimenea central y senderos privados. Diseñado para desconexión total en contacto con la naturaleza.",
+    "subtitle": "Cabaña de madera y piedra",
+    "description": "Refugio arquitectónico inmerso en el bosque.",
     "pricePerNight": 580,
     "currency": "USD",
     "category": "Cabaña",
     "location": "Portland, Oregon, EE. UU.",
-    "rating": 5.0,
+    "rating": 5,
     "reviewsCount": 51,
-    "isFeatured": true,
+    "isFeatured": false,
     "isVerifiedLuxe": false,
     "specs": {
       "areaSqm": 310,
@@ -145,18 +124,757 @@
       "yearsExperience": 3
     },
     "images": [
-      "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1542718610-a1d656d1884c?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80"
     ],
     "amenities": [
       "Chimenea a leña",
-      "Sauna finlandés privado",
-      "Deck panorámico en el bosque",
-      "Wifi Starlink",
-      "Cocina exterior con parrilla",
-      "Pet friendly"
+      "Sauna finlandés"
+    ]
+  },
+  {
+    "id": "villa-sanctuary",
+    "title": "Villa Sanctuary con Piscina Templada & Vista Panorámica",
+    "subtitle": "Residencia de lujo en Calacoto",
+    "description": "Lujo y confort con vistas impresionantes.",
+    "pricePerNight": 145,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "Calacoto, La Paz",
+    "rating": 4.98,
+    "reviewsCount": 84,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "garages": 2
+    },
+    "host": {
+      "name": "Anfitrión 1",
+      "isSuperhost": true,
+      "yearsExperience": 5
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Jacuzzi privado",
+      "Wifi 500 Mbps"
+    ]
+  },
+  {
+    "id": "sky-loft",
+    "title": "Ático Sky Loft con Ventanales de Techo a Suelo y Terraza",
+    "subtitle": "Penthouse moderno en Achumani",
+    "description": "Vistas inigualables desde lo más alto.",
+    "pricePerNight": 115,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "San Miguel, La Paz",
+    "rating": 4.95,
+    "reviewsCount": 112,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 200,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "garages": 1
+    },
+    "host": {
+      "name": "Anfitrión 2",
+      "isSuperhost": true,
+      "yearsExperience": 4
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Parrilla a gas",
+      "Estacionamiento techado"
+    ]
+  },
+  {
+    "id": "condo-minimalista",
+    "title": "Condo Minimalista & Luz Natural",
+    "subtitle": "Loft moderno en zona sur",
+    "description": "Confort y luz para tu estadía.",
+    "pricePerNight": 38,
+    "currency": "USD",
+    "category": "Ciudad",
+    "location": "Calacoto, La Paz",
+    "rating": 4.93,
+    "reviewsCount": 45,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 80,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garages": 0
+    },
+    "host": {
+      "name": "Anfitrión 3",
+      "isSuperhost": true,
+      "yearsExperience": 2
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Calefacción"
+    ]
+  },
+  {
+    "id": "suite-ejecutiva",
+    "title": "Suite Ejecutiva con Balcón Verde",
+    "subtitle": "Elegancia en Cala Cala",
+    "description": "Perfecta para viajes de negocios o descanso.",
+    "pricePerNight": 45,
+    "currency": "USD",
+    "category": "Ciudad",
+    "location": "Cala Cala, Cochabamba",
+    "rating": 4.98,
+    "reviewsCount": 30,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 60,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garages": 0
+    },
+    "host": {
+      "name": "Anfitrión 4",
+      "isSuperhost": true,
+      "yearsExperience": 3
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Smart TV",
+      "Gym"
+    ]
+  },
+  {
+    "id": "cabana-nordica",
+    "title": "Cabaña Nórdica entre las Colinas",
+    "subtitle": "Refugio en Samaipata",
+    "description": "Contacto total con la naturaleza.",
+    "pricePerNight": 62,
+    "currency": "USD",
+    "category": "Cabaña",
+    "location": "Samaipata, Santa Cruz",
+    "rating": 4.96,
+    "reviewsCount": 55,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 120,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "garages": 1
+    },
+    "host": {
+      "name": "Anfitrión 5",
+      "isSuperhost": false,
+      "yearsExperience": 1
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Chimenea",
+      "Jardín"
+    ]
+  },
+  {
+    "id": "estudio-loft",
+    "title": "Estudio Loft con Acceso a Piscina",
+    "subtitle": "Loft moderno en Equipetrol",
+    "description": "Espacio funcional y cómodo.",
+    "pricePerNight": 52,
+    "currency": "USD",
+    "category": "Ciudad",
+    "location": "Equipetrol, Santa Cruz",
+    "rating": 4.9,
+    "reviewsCount": 40,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 50,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garages": 0
+    },
+    "host": {
+      "name": "Anfitrión 6",
+      "isSuperhost": true,
+      "yearsExperience": 4
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Sauna",
+      "Co-work"
+    ]
+  },
+  {
+    "id": "penthouse-illimani-sopocachi",
+    "title": "Penthouse Mirador Illimani en Sopocachi",
+    "subtitle": "Ático de lujo con vista al nevado Illimani",
+    "description": "Exclusivo penthouse en el corazón cultural de Sopocachi con ventanales panorámicos de 360 grados, calefacción central y terraza privada.",
+    "pricePerNight": 130,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "Sopocachi, La Paz",
+    "rating": 4.97,
+    "reviewsCount": 48,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 190,
+      "guests": 5,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "garages": 1
+    },
+    "host": {
+      "name": "Camila Murillo",
+      "isSuperhost": true,
+      "yearsExperience": 6
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Vista al nevado Illimani",
+      "Calefacción central",
+      "Terraza panorámica",
+      "Wifi 300 Mbps",
+      "Ascensor directo"
+    ]
+  },
+  {
+    "id": "residencia-valle-de-la-luna",
+    "title": "Residencia Contemporánea Valle de la Luna",
+    "subtitle": "Casa de autor en Mallasa",
+    "description": "Arquitectura orgánica integrada en las formaciones de arcilla de Mallasa, con microclima cálido, jardín botánico autóctono y chimenea.",
+    "pricePerNight": 98,
+    "currency": "USD",
+    "category": "Montaña",
+    "location": "Mallasa, La Paz",
+    "rating": 4.93,
+    "reviewsCount": 36,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 220,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "garages": 2
+    },
+    "host": {
+      "name": "Rodrigo Aramayo",
+      "isSuperhost": true,
+      "yearsExperience": 4
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Jardín privado",
+      "Chimenea a leña",
+      "Parrillero",
+      "Estacionamiento privado",
+      "Vistas a cañones"
+    ]
+  },
+  {
+    "id": "refugio-andino-sorata",
+    "title": "Chalet Rústico & Mirador Valle de Sorata",
+    "subtitle": "Cabaña alpina al pie del macizo Illampu",
+    "description": "Cabaña acogedora construida en piedra y madera nativa, huerto frutal y terraza perfecta para desconectar y practicar senderismo.",
+    "pricePerNight": 350,
+    "currency": "BOB",
+    "category": "Cabaña",
+    "location": "Sorata, La Paz",
+    "rating": 4.89,
+    "reviewsCount": 29,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 110,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "garages": 1
+    },
+    "host": {
+      "name": "Germán Quispe",
+      "isSuperhost": false,
+      "yearsExperience": 2
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Vistas a la montaña",
+      "Fogatero exterior",
+      "Cocina equipada",
+      "Agua caliente de vertiente"
+    ]
+  },
+  {
+    "id": "apart-studio-san-miguel",
+    "title": "Studio Urbano Vanguardista San Miguel",
+    "subtitle": "Mini-apartamento de diseño en Zona Sur",
+    "description": "A pasos de los mejores restaurantes, cafés de especialidad y boutiques de la calle 21 de Calacoto, equipado con espacio para coworking.",
+    "pricePerNight": 290,
+    "currency": "BOB",
+    "category": "Ciudad",
+    "location": "San Miguel, La Paz",
+    "rating": 4.92,
+    "reviewsCount": 73,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 48,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garages": 0
+    },
+    "host": {
+      "name": "Valeria Peñaranda",
+      "isSuperhost": true,
+      "yearsExperience": 5
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Wifi 400 Mbps",
+      "Smart TV 55\"",
+      "Escritorio ergonómico",
+      "Cocina de inducción"
+    ]
+  },
+  {
+    "id": "villa-luxe-achumani",
+    "title": "Villa La Arboleda con Spa & Piscina Cubierta",
+    "subtitle": "Mansión exclusiva en Achumani",
+    "description": "Propiedad de alta gama con piscina atemperada bajo techo, sauna seco, jardín con césped natural y seguridad privada 24/7.",
+    "pricePerNight": 210,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "Achumani, La Paz",
+    "rating": 4.99,
+    "reviewsCount": 52,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 380,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 4.5,
+      "garages": 3
+    },
+    "host": {
+      "name": "Eduardo Zalles",
+      "isSuperhost": true,
+      "yearsExperience": 8
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Piscina atemperada cubierta",
+      "Sauna seco",
+      "Seguridad 24/7",
+      "Parrilla gourmet",
+      "Gimnasio"
+    ]
+  },
+  {
+    "id": "finca-los-molles-tiquipaya",
+    "title": "Quinta Campestre Los Molles en Tiquipaya",
+    "subtitle": "Paraíso floral con piscina y jardines frutales",
+    "description": "Rodeada de molles centenarios y microclima templado, esta quinta colonial restaurada ofrece piscina privada, huerto orgánico y asador criollo.",
+    "pricePerNight": 85,
+    "currency": "USD",
+    "category": "Cabaña",
+    "location": "Tiquipaya, Cochabamba",
+    "rating": 4.96,
+    "reviewsCount": 41,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 260,
+      "guests": 7,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "garages": 3
+    },
+    "host": {
+      "name": "Marcelo Torrico",
+      "isSuperhost": true,
+      "yearsExperience": 7
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Piscina privada",
+      "Jardín de 1000m²",
+      "Parrillero criollo",
+      "Mesa de ping-pong",
+      "Wifi alta velocidad"
+    ]
+  },
+  {
+    "id": "loft-panoramico-queru-queru",
+    "title": "Loft Sky Garden en Queru Queru",
+    "subtitle": "Modernidad y verdor en zona residencial norte",
+    "description": "Diseño bioclimático con terraza repleta de vegetación, iluminación natural superior y cercanía al Parque Fidel Anze.",
+    "pricePerNight": 42,
+    "currency": "USD",
+    "category": "Ciudad",
+    "location": "Queru Queru, Cochabamba",
+    "rating": 4.94,
+    "reviewsCount": 67,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 75,
+      "guests": 3,
+      "bedrooms": 1,
+      "bathrooms": 1.5,
+      "garages": 1
+    },
+    "host": {
+      "name": "Patricia Mercado",
+      "isSuperhost": true,
+      "yearsExperience": 3
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Terraza ajardinada",
+      "Estacionamiento subterráneo",
+      "Aire acondicionado",
+      "Smart Lock"
+    ]
+  },
+  {
+    "id": "residencia-tunari-colcapirhua",
+    "title": "Villa Contemporánea Parque Tunari",
+    "subtitle": "Refugio moderno con vistas a la cordillera",
+    "description": "Emplazada en las faldas de la cordillera del Tunari, combina líneas arquitectónicas puras, piscina sinfín y paz absoluta.",
+    "pricePerNight": 120,
+    "currency": "USD",
+    "category": "Montaña",
+    "location": "Cordillera del Tunari, Cochabamba",
+    "rating": 4.97,
+    "reviewsCount": 38,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 280,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "garages": 2
+    },
+    "host": {
+      "name": "Álvaro Guzmán",
+      "isSuperhost": true,
+      "yearsExperience": 5
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Piscina sinfín",
+      "Vistas a la cordillera",
+      "Cava de vinos",
+      "Chimenea de etanol",
+      "Seguridad perimetral"
+    ]
+  },
+  {
+    "id": "apart-torre-fidel-anze",
+    "title": "Departamento Boutique Boulevard Fidel Anze",
+    "subtitle": "Gastronomía y paseos en el mejor paseo cochabambino",
+    "description": "Impecable departamento con balcón sobre las copas de los árboles del boulevard gastronómico, cocina italiana y acabados de lujo.",
+    "pricePerNight": 320,
+    "currency": "BOB",
+    "category": "Ciudad",
+    "location": "Boulevard Fidel Anze, Cochabamba",
+    "rating": 4.91,
+    "reviewsCount": 89,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 95,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "garages": 1
+    },
+    "host": {
+      "name": "Daniela Morales",
+      "isSuperhost": true,
+      "yearsExperience": 4
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Balcón arbolado",
+      "Cocina de chef",
+      "Lavavajillas",
+      "Gimnasio en edificio",
+      "Recepción 24h"
+    ]
+  },
+  {
+    "id": "cabana-valle-alto-tarata",
+    "title": "Cabaña de Adobe Estilizado en el Valle Alto",
+    "subtitle": "Autenticidad colonial en Tarata",
+    "description": "Reinterpretación contemporánea de la arquitectura de adobe tradicional con techo de vigas vistas, patio empedrado y horno de barro tradicional.",
+    "pricePerNight": 260,
+    "currency": "BOB",
+    "category": "Cabaña",
+    "location": "Tarata, Cochabamba",
+    "rating": 4.88,
+    "reviewsCount": 22,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 140,
+      "guests": 5,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "garages": 2
+    },
+    "host": {
+      "name": "Gonzalo Rocha",
+      "isSuperhost": false,
+      "yearsExperience": 2
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Horno de barro tradicional",
+      "Patio colonial",
+      "Hamacas",
+      "Senderos campestres"
+    ]
+  },
+  {
+    "id": "mansion-urubo-golf",
+    "title": "Mansión Urubó Golf & Lago Privado",
+    "subtitle": "Máxima exclusividad residencial en el Urubó",
+    "description": "Imponente residencia de arquitectura tropical moderna con muelle privado hacia laguna interior, piscina de diseño, cine en casa y suites con vestidor.",
+    "pricePerNight": 340,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "Urubó, Santa Cruz",
+    "rating": 4.99,
+    "reviewsCount": 43,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 520,
+      "guests": 10,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "garages": 4
+    },
+    "host": {
+      "name": "Sebastián Justiniano",
+      "isSuperhost": true,
+      "yearsExperience": 9
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Piscina tropical privada",
+      "Muelle al lago",
+      "Sala de cine",
+      "Seguridad privada motorizada",
+      "Cocina de catering"
+    ]
+  },
+  {
+    "id": "penthouse-equipetrol-norte",
+    "title": "Penthouse Dúplex Cosmopolita en Equipetrol Norte",
+    "subtitle": "Vistas 360 al skyline cruceño y piscina privada",
+    "description": "Dúplex de lujo en el distrito financiero y social de Equipetrol, con jacuzzi en terraza exterior, bar de cócteles y climatización central inverter.",
+    "pricePerNight": 165,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "Equipetrol Norte, Santa Cruz",
+    "rating": 4.96,
+    "reviewsCount": 78,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 230,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "garages": 2
+    },
+    "host": {
+      "name": "Mariana Antelo",
+      "isSuperhost": true,
+      "yearsExperience": 6
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Jacuzzi en terraza",
+      "Climatización central inverter",
+      "Bar privado",
+      "Piscina infinity del edificio",
+      "Concierge 24/7"
+    ]
+  },
+  {
+    "id": "eco-lodge-samaipata-valles",
+    "title": "Eco-Lodge Panorámico en las Colinas de Samaipata",
+    "subtitle": "Vistas infinitas al Parque Nacional Amboró",
+    "description": "Arquitectura sustentable en madera y cristal a 1600 msnm, rodeada de viñedos y neblina andino-amazónica, ideal para observación de estrellas.",
+    "pricePerNight": 75,
+    "currency": "USD",
+    "category": "Cabaña",
+    "location": "Samaipata, Santa Cruz",
+    "rating": 4.95,
+    "reviewsCount": 64,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 135,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "garages": 1
+    },
+    "host": {
+      "name": "Jean-Paul Vaca",
+      "isSuperhost": true,
+      "yearsExperience": 5
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Telescopio profesional",
+      "Deck con vista a valles",
+      "Chimenea nórdica",
+      "Desayuno orgánico incluido"
+    ]
+  },
+  {
+    "id": "smart-studio-sirari",
+    "title": "Smart Studio de Diseño en Barrio Sirari",
+    "subtitle": "Vanguardia tecnológica en el barrio más trendy",
+    "description": "Totalmente domotizado (luces, persianas y cerraduras por voz o app), decoración nórdica y piscina tipo resort en la terraza del edificio.",
+    "pricePerNight": 280,
+    "currency": "BOB",
+    "category": "Ciudad",
+    "location": "Barrio Sirari, Santa Cruz",
+    "rating": 4.9,
+    "reviewsCount": 53,
+    "isFeatured": false,
+    "isVerifiedLuxe": false,
+    "specs": {
+      "areaSqm": 52,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garages": 1
+    },
+    "host": {
+      "name": "Carlos Saucedo",
+      "isSuperhost": true,
+      "yearsExperience": 3
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Domótica integral",
+      "Piscina y deck resort",
+      "Gimnasio completo",
+      "Wifi 500 Mbps"
+    ]
+  },
+  {
+    "id": "villa-tropical-las-palmas",
+    "title": "Villa Palmeras con Jardín Zen & Piscina",
+    "subtitle": "Oasis tropical en Barrio Las Palmas",
+    "description": "Residencia familiar de estilo californiano rodeada de palmeras reales, amplia galería con ventiladores de techo, churrasquera y suite principal con vestidor.",
+    "pricePerNight": 110,
+    "currency": "USD",
+    "category": "Luxe",
+    "location": "Las Palmas, Santa Cruz",
+    "rating": 4.94,
+    "reviewsCount": 39,
+    "isFeatured": false,
+    "isVerifiedLuxe": true,
+    "specs": {
+      "areaSqm": 310,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3.5,
+      "garages": 2
+    },
+    "host": {
+      "name": "Lorena Aguilera",
+      "isSuperhost": true,
+      "yearsExperience": 7
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Galería tropical con churrasquera",
+      "Piscina privada",
+      "Jardín zen",
+      "Aire acondicionado en todos los ambientes",
+      "Garaje techado doble"
     ]
   }
 ]

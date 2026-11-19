@@ -15,7 +15,6 @@
 - `components/` — **aún no existe**; crear ahí los componentes de UI (PascalCase, un archivo por componente).
 - `data/properties.json` — fuente única de datos. Propiedades: `villa-serenity` (Luxe), `the-glass-pavilion` (Luxe), `modern-design-loft` (Ciudad), `nordic-forest-retreat` (Cabaña).
 - `types/property.ts` — contrato `Property`; no modificar sin autorización explícita.
-- `DESIGN.md` — **fuente de verdad visual** (tokens HEX, radios, tipografía).
 - `references/templates/{home,detalle,usuario,autentificacion}/` — `code.html` + `screen.png` de referencia visual. **Solo lectura:** nunca editarlos ni copiarlos tal cual; son inspiración, no código del proyecto.
 - `specs/` — única carpeta para especificaciones y walkthroughs (ver gobernanza abajo).
 - `public/` — assets estáticos; hoy solo SVGs de la plantilla.
@@ -27,13 +26,12 @@
 - Nunca inventar campos ni renombrar claves: si falta un dato, derivarlo en UI o pedir ampliación de contrato.
 - Precios: formatear con `currency` (`USD` → `$`, `BOB` → `Bs`) y sufijo `/ noche`.
 
-## Sistema Visual (`DESIGN.md`)
+## Sistema Visual 
 - Dark mode obligatorio: fondo `#0B0F17`, texto `text-slate-100`, selección coral.
 - Superficies: tarjetas `#161F30` con glassmorphism (`backdrop-blur-md`, `border-white/10`), hover `#1C273C`, bordes `#27354A`.
 - Marca: `#FF385C` (CTA, hover `#E00B41`), `#00A699` (verificado), `#FFB400` (estrellas/rating).
 - Radios: `rounded-3xl` contenedores/galerías, `rounded-2xl` tarjetas internas e inputs, `rounded-xl` botones secundarios/badges, `rounded-full` píldoras y avatares.
 - Layout global: `max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`; header `sticky top-0 z-50 h-20` con glassmorphism.
-- **DESIGN.md manda sobre `references/templates`:** las plantillas usan acentos esmeralda en algunos bloques; en el código usar siempre los tokens de `DESIGN.md` (`#00A699`, `#FF385C`, `#FFB400`).
 - Tipografía objetivo: `Plus Jakarta Sans` (pesos 400–800). `app/layout.tsx` aún carga Geist: al implementar la primera pantalla real, migrar a `next/font/google` con Plus Jakarta Sans y ajustar `globals.css`. No mezclar ambas.
 
 ## Convenciones de Código
@@ -70,23 +68,32 @@ Cuando ejecutes los skills de `superpowers` (`brainstorming`, `writing-plans` o 
    - **Informes de Ejecución (Walkthroughs):** `specs/walkthrough01.md`, `specs/walkthrough02.md`, `specs/walkthrough03.md`, etc. (manteniendo exactamente el mismo número de la spec implementada).
 
 3. **Estructura Mínima de cada archivo:**
-   - **`specs/specXX.md`:** Objetivo, contrato de datos (`types/property.ts` + `@/data/properties.json`), tokens visuales (`DESIGN.md`), criterios de aceptación y alcance excluido.
+   - **`specs/specXX.md`:** Objetivo, contrato de datos (`types/property.ts` + `@/data/properties.json`), tokens visuales, criterios de aceptación y alcance excluido.
    - **`specs/walkthroughXX.md`:** Referencia a `specs/specXX.md`, lista de archivos creados/editados, confirmación de respeto al contrato de tipos y 2 pruebas rápidas en `localhost:3000`.
 
-## Puerta de Aprobación Obligatoria (Flujo en 2 Fases Separadas)
-Cuando el usuario solicite diseñar o planificar una pantalla/funcionalidad:
+## Flujo de Trabajo Obligatorio (3 Fases y Doble Puerta de Aprobación)
+Cuando el usuario solicite diseñar, planificar o construir una pantalla o funcionalidad, debes seguir estrictamente este flujo de 3 fases:
 
-1. **Fase 1 — Brainstorming y Especificación (Detenerse al guardar):**
-   - **OBLIGATORIO:** Inicia con `brainstorming` para aclarar ambigüedades, proponer mejoras y resolver dudas con el usuario ANTES de planificar.
-   - Tras el consenso, ejecuta `writing-plans` para formalizar la especificación.
-   - Guarda **únicamente** el archivo `specs/specXX.md`.
-   - **PROHIBIDO** escribir, editar o crear archivos de código (`app/`, `components/`, `types/`, `data/`, etc.) en esta fase, incluso si el usuario dice "apruebo el plan" dentro del flujo de `writing-plans`.
-   - Al guardar `specs/specXX.md`, detente inmediatamente y responde:
-     `"Documento specs/specXX.md creado. Revísalo, edítalo si deseas y dime 'implementa specXX' para ejecutar el código."`
+1. **Fase 1 — Brainstorming y Consulta Exhaustiva (Aclaración previa):**
+   - **OBLIGATORIO:** Inicia siempre con el skill `brainstorming`.
+   - **Consultas activas al usuario:** No asumas nada. Pregunta y aclara exhaustivamente:
+     - Datos o requisitos no especificados, ambiguos o incompletos.
+     - Posibles mejoras, alternativas de UX/UI y flujos de interacción.
+     - Aspectos a definir: decisiones de arquitectura, tecnologías, componentes, patrones o modos de trabajo.
+   - **PROHIBIDO** redactar el spec o crear archivos sin antes resolver estas dudas con el usuario.
+   - **Puerta de Aprobación 1 (Permiso para redactar el Spec):** Una vez consensuados todos los puntos del brainstorm, **debes solicitar permiso explícito al usuario antes de escribir el spec** con `writing-plans` (ej.: *"¿Estás de acuerdo con estos puntos? ¿Me autorizas a redactar `specs/specXX.md`?"*).
 
-2. **Fase 2 — Implementación (Solo bajo orden explícita):**
-   - Procede a programar y generar `specs/walkthroughXX.md` **únicamente** cuando el usuario envíe una nueva instrucción explícita indicando `"implementa specXX"` o `"ejecuta specs/specXX.md"`.
-   - La implementación respeta `DESIGN.md` y el contrato de `Property`; al cerrar, corre lint y build y documenta la evidencia real.
+2. **Fase 2 — Especificación Formal (`specs/specXX.md`) (Detenerse al guardar):**
+   - **Solo tras recibir autorización explícita para redactar el spec**, ejecuta `writing-plans` para formalizar la especificación.
+   - Guarda **únicamente** el archivo `specs/specXX.md` (según la numeración correlativa en `/specs`).
+   - **PROHIBIDO** escribir, editar o crear archivos de código (`app/`, `components/`, `types/`, `data/`, etc.) en esta fase.
+   - **Puerta de Aprobación 2 (Permiso para Implementar):** Al guardar `specs/specXX.md`, detente inmediatamente sin tocar código y responde:
+     `"Documento specs/specXX.md creado. Revísalo, edítalo si deseas y confírmame ('procede con el spec' o 'implementa specXX') para comenzar la implementación."`
+
+3. **Fase 3 — Implementación y Verificación (Solo bajo orden explícita):**
+   - Procede a programar en el código base y generar `specs/walkthroughXX.md` **únicamente** cuando el usuario envíe una orden explícita indicando `"procede con el spec"`, `"implementa specXX"` o `"ejecuta specs/specXX.md"`.
+   - La implementación debe el contrato de `Property`.
+   - Al finalizar, ejecuta la verificación (`npx eslint app components --max-warnings=0`, `npm run build`), genera el walkthrough y documenta la evidencia real.
 
 
 ## Git y Archivos Ajenos
