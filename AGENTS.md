@@ -20,10 +20,8 @@
 - `public/` — assets estáticos; hoy solo SVGs de la plantilla.
 
 ## Contrato de Datos (`types/property.ts`)
-- Campos obligatorios: `id`, `title`, `subtitle`, `description`, `pricePerNight`, `currency` (`'USD' | 'BOB'`), `category` (`'Luxe' | 'Cabaña' | 'Playa' | 'Montaña' | 'Ciudad'`), `location`, `rating`, `reviewsCount`, `specs`, `host`, `images`, `amenities`.
-- Opcionales: `isFeatured?`, `isVerifiedLuxe?`.
-- `specs`: `areaSqm`, `guests`, `bedrooms`, `bathrooms`, `garages`. `host`: `name`, `isSuperhost`, `yearsExperience`.
-- Nunca inventar campos ni renombrar claves: si falta un dato, derivarlo en UI o pedir ampliación de contrato.
+- Importar y respetar la interfaz `Property` desde `types/property.ts`. Prohibido el uso de `any` y no alterar la interfaz.
+- Nunca inventar campos ni renombrar claves: si falta un dato, derivarlo en UI.
 - Precios: formatear con `currency` (`USD` → `$`, `BOB` → `Bs`) y sufijo `/ noche`.
 
 ## Sistema Visual 
@@ -45,9 +43,9 @@
 
 ## Comandos de Verificación
 - `npm run dev` → desarrollo en `http://localhost:3000`.
-- `npx eslint app components --max-warnings=0` → lint del código propio (rápido y fiable).
-- `npm run build` → verificación de compilación y prerender.
-- `npm run lint` global puede fallar por scripts preexistentes en `.agents/skills/` (`no-require-imports`), ajenos al código de la app: no es un fallo del proyecto; no "arreglarlo" tocando esos skills.
+- `npm run build` → verificación de compilación y prerender (verificación obligatoria de implementación).
+- `npm run typecheck` → verificación rápida de tipado estricto (`tsc --noEmit`, opcional).
+- `npm run audit` → auditoría de calidad con ESLint (exclusivo para auditorías bajo demanda; **prohibido ejecutar durante la implementación**).
 - Antes de declarar algo terminado, ejecutar el comando que lo prueba y citar la salida real.
 
 ## Estado Actual
@@ -55,21 +53,9 @@
 - Pendiente: catálogo Home, detalle de propiedad, perfil de usuario y autenticación, guiados por `references/templates` + `data/properties.json`.
 - El siguiente número correlativo en `/specs` se asigna al crear el archivo (`spec02`, `walkthrough02`, …).
 
-## Gobernanza de Archivos de Superpowers (Carpeta Única `/specs`)
-Cuando ejecutes los skills de `superpowers` (`brainstorming`, `writing-plans` o `verification-before-completion`):
-
-1. **Carpeta Única Obligatoria (`/specs`):**
-   - Ignora cualquier ruta por defecto del skill (`docs/plans/`, `docs/specs/` o `/walkthrough`).
-   - Tanto las especificaciones como los informes de resultados deben guardarse exclusivamente dentro de la carpeta `/specs` en la raíz del proyecto.
-
-2. **Nomenclatura y Numeración Correlativa (2 dígitos):**
-   - Antes de crear un archivo, verifica el último número existente dentro de `/specs` y asigna el siguiente correlativo:
-   - **Especificaciones / Planes:** `specs/spec01.md`, `specs/spec02.md`, `specs/spec03.md`, etc.
-   - **Informes de Ejecución (Walkthroughs):** `specs/walkthrough01.md`, `specs/walkthrough02.md`, `specs/walkthrough03.md`, etc. (manteniendo exactamente el mismo número de la spec implementada).
-
-3. **Estructura Mínima de cada archivo:**
-   - **`specs/specXX.md`:** Objetivo, contrato de datos (`types/property.ts` + `@/data/properties.json`), tokens visuales, criterios de aceptación y alcance excluido.
-   - **`specs/walkthroughXX.md`:** Referencia a `specs/specXX.md`, lista de archivos creados/editados, confirmación de respeto al contrato de tipos y 2 pruebas rápidas en `localhost:3000`.
+## Gobernanza de Especificaciones y Reportes (`/specs`)
+- Toda especificación o informe de resultados se almacena exclusivamente en `/specs`.
+- Nomenclatura correlativa (2 dígitos): `specs/specXX.md` para especificaciones y `specs/walkthroughXX.md` para los informes de ejecución correspondientes.
 
 ## Flujo de Trabajo Obligatorio (3 Fases y Doble Puerta de Aprobación)
 Cuando el usuario solicite diseñar, planificar o construir una pantalla o funcionalidad, debes seguir estrictamente este flujo de 3 fases:
@@ -93,10 +79,9 @@ Cuando el usuario solicite diseñar, planificar o construir una pantalla o funci
 3. **Fase 3 — Implementación y Verificación (Solo bajo orden explícita):**
    - Procede a programar en el código base y generar `specs/walkthroughXX.md` **únicamente** cuando el usuario envíe una orden explícita indicando `"procede con el spec"`, `"implementa specXX"` o `"ejecuta specs/specXX.md"`.
    - La implementación debe el contrato de `Property`.
-   - Al finalizar, ejecuta la verificación (`npx eslint app components --max-warnings=0`, `npm run build`), genera el walkthrough y documenta la evidencia real.
+   - Al finalizar, ejecuta la verificación técnica (`npm run build`), genera el walkthrough y documenta la evidencia real.
 
 
-## Git y Archivos Ajenos
+## Control de Git
 - No hacer commit, push ni PR sin instrucción explícita.
-- Hay archivos temporales ajenos al proyecto en la raíz (`y41156a1b0 ….mp4.part`, `.ytdl`): no agregarlos, moverlos ni commitearlos.
-- **Control de Git:** Prohibido ejecutar `git commit` o `git push` automáticamente. Deja los cambios sin commitear para revisión manual del usuario.
+- Prohibido ejecutar `git commit` o `git push` automáticamente. Deja los cambios sin commitear para revisión manual del usuario.

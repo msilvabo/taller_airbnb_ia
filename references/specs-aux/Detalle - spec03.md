@@ -166,7 +166,7 @@ La pantalla debe consumir los datos de cualquier propiedad existente en `@/data/
 4. **Respeto a los Contratos:** Se preserva intacto `types/property.ts` sin usar `any`.
 5. **Cero `next/image`:** Todas las imágenes emplean etiquetas nativas `<img>` con clases de Tailwind.
 6. **Cero Dependencias Externas:** No se incluye FontAwesome por CDN ni librerías externas adicionales; toda la iconografía se resuelve con SVGs inline.
-7. **Verificación Técnica:** `npx eslint app components --max-warnings=0` y `npm run build` terminan con código de salida 0 sin advertencias ni errores.
+7. **Verificación Técnica:** `npm run build` ejecuta y finaliza con código de salida 0 (verificación exclusiva de compilación y tipado).
 
 ---
 

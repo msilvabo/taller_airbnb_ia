@@ -140,7 +140,7 @@ Reemplazar el contenido mínimo actual de `app/page.tsx`, migrar la tipografía 
 3. **Cero `next/image`:** Todas las imágenes emplean etiquetas `<img>` nativas con clases de Tailwind correspondientes.
 4. **Server Components:** Todos los componentes se renderizan del lado del servidor sin errores de hidratación ni dependencias de hooks no autorizados.
 5. **Tipografía Unificada:** `Plus Jakarta Sans` queda cargada desde `next/font/google` y aplicada en toda la app sin rastros de `Geist`.
-6. **Verificación Técnica:** `npx eslint app components --max-warnings=0` y `npm run build` ejecutan y finalizan con código de salida 0 sin advertencias ni errores.
+6. **Verificación Técnica:** `npm run build` ejecuta y finaliza con código de salida 0 (verificación exclusiva de compilación y tipado).
 
 ---
 
